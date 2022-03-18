@@ -1,0 +1,168 @@
+html {
+    text-align: center;
+    color: rgb(1, 71, 71);
+    background-color: gray;
+    font-family: "rubik", sans-serif;
+    font-size: 20px;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    border-bottom: 2px solid rgb(56, 56, 56);
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5em;
+    width: 100%;
+    background-color: gray;
+    opacity: .95;
+}
+
+header h1 {
+    margin-left: .5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul a {
+    color:rgb(1, 71, 71);
+    text-decoration: underline;
+    margin: .5rem;
+}
+
+#banner {
+    display: flex;
+    background-image: url(./Resources/Images/jay-dkFJST9zZZo-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 3em;
+    color: rgb(124 123 123);
+    padding-top: 2.6rem;
+}
+
+#events {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 1rem 0;
+    background-image: url(./Resources/Images/behnam-norouzi-PDVwLzOxKQE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#events h2 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+
+.event {
+    background-color: rgb(151 148 148);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    line-height: 1.5em;
+    padding: 2rem;
+}
+
+.event h3 {
+    margin: 1rem;
+}
+
+.content {
+    display: flex;
+    margin: 2rem;
+}
+
+@media screen and (max-width: 875px) {
+    .content {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .piece img {
+        margin: 1rem auto;
+    }
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#news h2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.piece {
+    height: auto;
+    width: 33%;
+    margin: 2rem;
+    line-height: 1.4;
+    background-color: rgb(151 148 148);
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.piece img {
+    height: auto;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.piece h3 {
+    margin: 1rem;
+}
+
+.piece p {
+    margin: 1rem;
+}
+
+#pom {
+    display: flex;
+    flex-direction: column;
+}
+
+#pom img { 
+    height: auto;
+    width: 50%;
+}
+
+#pom h2 {
+    font-size: 2rem;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice p {
+    margin: 2rem;
+    line-height: 1.4;
+}
